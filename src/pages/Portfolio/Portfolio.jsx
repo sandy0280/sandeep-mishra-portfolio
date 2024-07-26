@@ -1,5 +1,5 @@
-import  { useState, useEffect } from 'react';
-import { FaRegEye } from 'react-icons/fa';
+import { useState, useEffect } from "react";
+import { FaRegEye } from "react-icons/fa";
 
 const Portfolio = () => {
   // State to store project data and filtered projects
@@ -7,26 +7,28 @@ const Portfolio = () => {
   const [filteredProjects, setFilteredProjects] = useState([]);
 
   // State to store the selected category
-  const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   // Load project data from projects.json
   useEffect(() => {
-    fetch('/projects.json')
+    fetch("/projects.json")
       .then(response => response.json())
       .then(data => {
         setProjects(data);
         setFilteredProjects(data);
       })
-      .catch(error => console.error('Error loading project data:', error));
+      .catch(error => console.error("Error loading project data:", error));
   }, []);
 
   // Function to handle category filter selection
-  const handleFilterClick = (category) => {
+  const handleFilterClick = category => {
     setSelectedCategory(category);
-    if (category === 'All') {
+    if (category === "All") {
       setFilteredProjects(projects);
     } else {
-      const filtered = projects.filter(project => project.category === category);
+      const filtered = projects.filter(
+        project => project.category === category
+      );
       setFilteredProjects(filtered);
     }
   };
@@ -39,10 +41,16 @@ const Portfolio = () => {
 
       {/* Filter buttons */}
       <ul className="filter-list">
-        {['All', 'Web design', 'Applications', 'Web development'].map(category => (
+        {[
+          "All",
+          "Languages and Frameworks",
+          "Data Management Tool",
+          "Deployment Tools",
+          "Other Tools"
+        ].map(category => (
           <li className="filter-item" key={category}>
             <button
-              className={category === selectedCategory ? 'active' : ''}
+              className={category === selectedCategory ? "active" : ""}
               onClick={() => handleFilterClick(category)}
               data-filter-btn
             >

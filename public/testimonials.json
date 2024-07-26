@@ -1,24 +1,22 @@
-
 [
-    {
-      "name": "Daniel Lewis",
-      "avatar": "/images/avatar-1.png",
-      "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
-    },
-    {
-      "name": "Jessica Miller",
-      "avatar": "/images/avatar-2.png",
-      "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
-    },
-    {
-      "name": "Emily Evans",
-      "avatar": "/images/avatar-3.png",
-      "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
-    },
-    {
-      "name": "Henry William",
-      "avatar": "/images/avatar-4.png",
-      "testimonial": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client."
-    }
-  ]
-  
+  {
+    "name": "SQL and Relational Databases 101",
+    "avatar": "/images/mysql.jpg",
+    "testimonial": " SQL and relational databases play a crucial role in modern software applications, ensuring data organization, consistency, and efficient retrieval. "
+  },
+  {
+    "name": "M001 - MongoDB Basics ( MongoDB University )",
+    "avatar": "/images/mongodb.jpg",
+    "testimonial": "MongoDB's flexibility makes it ideal for modern applications, especially those dealing with constantly evolving data or complex relationships between information. It's a powerful tool for storing and managing data in the ever-changing digital landscape."
+  },
+  {
+    "name": "Amazon Web Services Cloud Practitioner - AWS Skill Builder",
+    "avatar": "/images/aws.jpg",
+    "testimonial": "AWS has become the world's leading cloud platform, empowering businesses of all sizes to embrace the power of cloud computing. It's a revolution that continues to reshape the IT landscape. AWS empowers businesses to innovate, scale, and respond swiftly to changing requirements."
+  },
+  {
+    "name": "Git certificate - DataCamp",
+    "avatar": "/images/git.jpg",
+    "testimonial": "Git is an essential tool for developers of all stripes. It streamlines collaboration, safeguards against errors, and empowers you to work with confidence, knowing every step of your project's evolution is meticulously tracked."
+  }
+]

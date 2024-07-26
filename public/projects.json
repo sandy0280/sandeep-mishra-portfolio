@@ -1,57 +1,111 @@
 [
-    {
-      "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "images/project-2.png"
-    },
-    {
-      "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
-      "category": "Web development",
-      "image": "images/project-7.png"
-    },
-    {
-      "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
-      "category": "Web development",
-      "image": "images/project-9.png"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "NodeJS",
+    "category": "Languages and Frameworks",
+    "image": "images/node.jpg"
+  },
+  {
+    "id": 2,
+    "title": "ExpressJS",
+    "category": "Languages and Frameworks",
+    "image": "images/express.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Typescript",
+    "category": "Languages and Frameworks",
+    "image": "images/ts.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Javascript",
+    "category": "Languages and Frameworks",
+    "image": "images/js.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Git",
+    "category": "Deployment Tools",
+    "image": "images/git.jpg"
+  },
+  {
+    "id": 8,
+    "title": "GitHub",
+    "category": "Deployment Tools",
+    "image": "images/github.jpg"
+  },
+  {
+    "id": 3,
+    "title": "MySQL",
+    "category": "Data Management Tool",
+    "image": "images/mysql.jpg"
+  },
+  {
+    "id": 5,
+    "title": "PostgreSQL",
+    "category": "Data Management Tool",
+    "image": "images/postgres.jpg"
+  },
+  {
+    "id": 6,
+    "title": "MongoDB",
+    "category": "Data Management Tool",
+    "image": "images/mongodb.jpg"
+  },
+
+  {
+    "id": 10,
+    "title": "Redis",
+    "category": "Data Management Tool",
+    "image": "images/radis.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Problem Solving",
+    "category": "Languages and Frameworks",
+    "image": "images/ps.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Linux/Unix",
+    "category": "Languages and Frameworks",
+    "image": "images/linux.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Postman",
+    "category": "Other Tools",
+    "image": "images/postman.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Trello",
+    "category": "Other Tools",
+    "image": "images/rello.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Chrome DevTools",
+    "category": "Other Tools",
+    "image": "images/crome.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Rest API",
+    "category": "Other Tools",
+    "image": "images/rest-api.png"
+  },
+  {
+    "id": 18,
+    "title": "Mongoose",
+    "category": "Other Tools",
+    "image": "images/mongoose.png"
+  },
+  {
+    "id": 19,
+    "title": "Nginx",
+    "category": "Other Tools",
+    "image": "images/nginx.jpg"
+  }
+]
