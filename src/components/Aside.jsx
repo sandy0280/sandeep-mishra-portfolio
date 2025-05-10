@@ -9,20 +9,25 @@ import {
   FaLinkedin,
   FaGithub,
   FaFacebook,
-  FaInstagramSquare
+  FaInstagramSquare,
+  FaWhatsappSquare
 } from "react-icons/fa";
+const currentMobileNo = "+919516591409";
 
 const Aside = () => {
   const resumeLinkStyle = {
-    display: "inline-block",
-    padding: "4px 18px",
+    display: "flex",
+    justifyContent: "center",
+    padding: "4px 12px",
     fontFamily: "Poppins, sans-serif",
     fontSize: "var(--fs-9)",
     fontWeight: "var(--fw-300)",
-    backgroundColor: "#2b2b2c",
+    backgroundColor: "#FF0000",
     color: "#fff",
     textDecoration: "none",
-    borderRadius: "8px"
+    border: "none",
+    borderRadius: "10px",
+    marginTop: "15px"
   };
 
   return (
@@ -34,21 +39,71 @@ const Aside = () => {
         <div className="info-content">
           <h1 className="name" title="Richard hanrick">
             SANDEEP MISHRA
+            <p className="title">Backend developer</p>
           </h1>
-
-          <p className="title">Backend developer</p>
           <center>
-            <br></br>
-
-            <a
+            {/* <a
               style={resumeLinkStyle}
               href="https://drive.google.com/file/d/1QBB76iNyHHwqyUyh-QgB2xl5U5h5ZwN-/view?usp=drive_link"
               download="Sandeep-Mishra-Resume.pdf"
-              className="resume-download-link"
+              className="title"
             >
               <span>Download Resume</span>
-            </a>
+            </a> */}
           </center>
+          <br />
+          <ul className="social-list">
+            <li className="social-item">
+              <a
+                href="https://www.linkedin.com/in/sandeepmishra156566/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+            <li className="social-item">
+              <a
+                href="https://github.com/sandy0280"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li className="social-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100003234054906"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <FaFacebook />
+              </a>
+            </li>
+            <li className="social-item">
+              <a
+                href="https://www.instagram.com/sandeeep_mishra_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <FaInstagramSquare />
+              </a>
+            </li>
+            <li className="social-item">
+              <a
+                href={`https://wa.me/${currentMobileNo}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <FaWhatsappSquare />
+              </a>
+            </li>
+          </ul>
         </div>
         <button className="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
@@ -117,38 +172,6 @@ const Aside = () => {
         </ul>
 
         <div className="separator"></div>
-
-        <ul className="social-list">
-          <li className="social-item">
-            <a
-              href="https://www.linkedin.com/in/sandeepmishra156566/"
-              className="social-link"
-            >
-              <FaLinkedin />
-            </a>
-          </li>
-          <li className="social-item">
-            <a href="https://github.com/sandy0280" className="social-link">
-              <FaGithub />
-            </a>
-          </li>
-          <li className="social-item">
-            <a
-              href="https://www.facebook.com/profile.php?id=100003234054906"
-              className="social-link"
-            >
-              <FaFacebook />
-            </a>
-          </li>
-          <li className="social-item">
-            <a
-              href="https://www.instagram.com/sandeeep_mishra_/"
-              className="social-link"
-            >
-              <FaInstagramSquare />
-            </a>
-          </li>
-        </ul>
       </div>
     </aside>
   );

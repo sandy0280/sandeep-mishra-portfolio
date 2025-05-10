@@ -7,9 +7,7 @@ const SkillItem = ({ title, value }) => {
         <data value={value}>{value}%</data>
       </div>
       <div className="skill-progress-bg">
-        <div className="skill-progress-fill"
-          style={{ width: `${value}%` }}
-        ></div>
+        <div className="skill-progress-fill" style={{ width: `${value}%` }}></div>
       </div>
     </li>
   );
