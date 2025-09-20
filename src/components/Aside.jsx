@@ -55,7 +55,7 @@ const Aside = () => {
           <ul className="social-list">
             <li className="social-item">
               <a
-                href="https://www.linkedin.com/in/sandeepmishra156566/"
+                href="https://www.linkedin.com/in/sandeepmishra-dev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
