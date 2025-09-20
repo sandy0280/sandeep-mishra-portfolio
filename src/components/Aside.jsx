@@ -34,23 +34,14 @@ const Aside = () => {
     <aside className="sidebar">
       <div className="sidebar-info">
         <figure className="avatar-box">
-          <img src={"/images/sandeep.jpg"} alt="Richard hanrick" width="80" />
+          <img src={"/images/sandeep.jpg"} alt="Sandeep Mishra" width="80" />
         </figure>
         <div className="info-content">
-          <h1 className="name" title="Richard hanrick">
+          <h1 className="name" title="Sandeep Mishra">
             SANDEEP MISHRA
             <p className="title">Backend developer</p>
           </h1>
-          <center>
-            {/* <a
-              style={resumeLinkStyle}
-              href="https://drive.google.com/file/d/1QBB76iNyHHwqyUyh-QgB2xl5U5h5ZwN-/view?usp=drive_link"
-              download="Sandeep-Mishra-Resume.pdf"
-              className="title"
-            >
-              <span>Download Resume</span>
-            </a> */}
-          </center>
+          {/* <center></center> */}
           <br />
           <ul className="social-list">
             <li className="social-item">
